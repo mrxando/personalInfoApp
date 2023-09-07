@@ -1,5 +1,7 @@
 import './App.css'
 import Info from './Info.jsx'
+import About from './About.jsx'
+import Footer from './Footer.jsx'
 
 function App() {
 
@@ -7,6 +9,8 @@ function App() {
     <>
     <div className="container">
         <Info />
+        <About/>
+        <Footer/>
     </div>
     </>
   )
