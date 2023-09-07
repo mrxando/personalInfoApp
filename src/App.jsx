@@ -1,10 +1,13 @@
 import './App.css'
+import Info from './Info.jsx'
 
 function App() {
 
   return (
     <>
-      <h1>test</h1>
+    <div className="container">
+        <Info />
+    </div>
     </>
   )
 }
